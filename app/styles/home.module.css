@@ -1,0 +1,65 @@
+.search_wrapper {
+    margin-top: 200px;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.search_select {
+    width: 300px;
+}
+
+.search_select_to_from {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.search_date {
+    width: 200px;
+}
+
+.section {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.form_input_wrap {
+    margin-right: 20px;
+}
+
+.form_datepicker_input_wrap {
+    margin-left: 120px;
+}
+
+.submit_section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.traveller_input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.traveller {
+    background: #eee;
+    width: 350px;
+    height: 280px;
+    padding: 15px 20px;
+    position: absolute;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    z-index: 9;
+}
